@@ -1,3 +1,7 @@
+# SLEE
+resources/tftp-server/docs/sources-mobicents/src/
+resources/tftp-server/docs/sources-telscale/src/
+
 # Java compiled #
 #################
 *.class
