@@ -27,7 +27,7 @@
 				</resource-adaptor-type-version>
 			</resource-adaptor-type-ref>
 			<activity-context-interface-factory-name>
-				slee/resources/mobicents/tftpserver/acifactory
+				slee/resources/restcomm/tftpserver/acifactory
             </activity-context-interface-factory-name>
 		</resource-adaptor-type-binding>]]>
 	</programlisting>		
