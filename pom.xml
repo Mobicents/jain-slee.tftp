@@ -2,9 +2,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<parent>
-		<groupId>org.mobicents</groupId>
-		<artifactId>restcomm-parent</artifactId>
-		<version>2.27.32</version>
+		<groupId>org.mobicents.servers.jainslee</groupId>
+		<artifactId>restcomm-slee-parent</artifactId>
+		<version>2.8.1</version>
 	</parent>
 	
 	<groupId>org.mobicents.servers.jainslee.tftp</groupId>
@@ -18,9 +18,9 @@
 	</modules>
 		
 	<scm>
-		<connection>scm:git:https://code.google.com/p/jain-slee.tftp/</connection>
-		<developerConnection>scm:git:https://code.google.com/p/jain-slee.tftp/</developerConnection>
-		<url>https://code.google.com/p/jain-slee.tftp/</url>
+		<connection>scm:git:https://github.com/RestComm/jain-slee.tftp.git</connection>
+		<developerConnection>scm:git:git@github.com:RestComm/jain-slee.tftp.git</developerConnection>
+		<url>https://github.com/RestComm/jain-slee.tftp</url>
 	</scm>     
 			
 	<profiles>
