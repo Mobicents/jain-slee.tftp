@@ -4,7 +4,7 @@
 
     <library-ref>
         <library-name>tftp-library</library-name>
-        <library-vendor>org.mobicents</library-vendor>
+        <library-vendor>org.restcomm</library-vendor>
         <library-version>1.0</library-version>
     </library-ref> 
 

@@ -6,19 +6,19 @@
    <resource-adaptor id="tftp-server-ra_1.0.00">
        	<description>Tftp Server RA 1.0.00 resource adaptor</description>
        	<resource-adaptor-name>TftpServerResourceAdaptor</resource-adaptor-name>
-       	<resource-adaptor-vendor>org.mobicents</resource-adaptor-vendor>
+       	<resource-adaptor-vendor>org.restcomm</resource-adaptor-vendor>
        	<resource-adaptor-version>1.0</resource-adaptor-version>
 
        	<resource-adaptor-type-ref>
             <resource-adaptor-type-name>TftpServerResourceAdaptorType</resource-adaptor-type-name>
-			<resource-adaptor-type-vendor>org.mobicents</resource-adaptor-type-vendor>
+			<resource-adaptor-type-vendor>org.restcomm</resource-adaptor-type-vendor>
 			<resource-adaptor-type-version>1.0</resource-adaptor-type-version>
        	</resource-adaptor-type-ref>
 
 		<resource-adaptor-classes>
 	   		<resource-adaptor-class>
                 <resource-adaptor-class-name>
-                    org.mobicents.slee.resource.tftp.TftpServerResourceAdaptor
+                    org.restcomm.slee.resource.tftp.TftpServerResourceAdaptor
                 </resource-adaptor-class-name>
             </resource-adaptor-class>
         </resource-adaptor-classes>

@@ -20,7 +20,7 @@
  * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
  */
 
-package org.mobicents.slee.resource.tftp.events;
+package org.restcomm.slee.resource.tftp.events;
 
 import java.rmi.server.UID;
 import java.util.EventObject;
@@ -29,7 +29,7 @@ import java.util.EventObject;
 import net.java.slee.resource.tftp.events.RequestEvent;
 
 import org.apache.commons.net.tftp.TFTPPacket;
-import org.mobicents.slee.resource.tftp.TFTPTransfer;
+import org.restcomm.slee.resource.tftp.TFTPTransfer;
 
 public class RequestEventImpl extends EventObject implements RequestEvent {
 	private static final long serialVersionUID = 1L;

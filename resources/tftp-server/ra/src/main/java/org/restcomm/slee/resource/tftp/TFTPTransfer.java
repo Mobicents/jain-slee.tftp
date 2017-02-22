@@ -20,7 +20,7 @@
  * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
  */
 
-package org.mobicents.slee.resource.tftp;
+package org.restcomm.slee.resource.tftp;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
@@ -49,8 +49,8 @@ import org.apache.commons.net.tftp.TFTPErrorPacket;
 import org.apache.commons.net.tftp.TFTPPacket;
 import org.apache.commons.net.tftp.TFTPReadRequestPacket;
 import org.apache.commons.net.tftp.TFTPWriteRequestPacket;
-import org.mobicents.slee.resource.tftp.TftpServerResourceAdaptor.ServerMode;
-import org.mobicents.slee.resource.tftp.events.RequestEventImpl;
+import org.restcomm.slee.resource.tftp.TftpServerResourceAdaptor.ServerMode;
+import org.restcomm.slee.resource.tftp.events.RequestEventImpl;
 
 /**
  * Handle an actual tftp transfer (server side).

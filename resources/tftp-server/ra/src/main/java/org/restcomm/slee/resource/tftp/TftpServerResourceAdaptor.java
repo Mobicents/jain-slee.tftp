@@ -20,7 +20,7 @@
  * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
  */
 
-package org.mobicents.slee.resource.tftp;
+package org.restcomm.slee.resource.tftp;
 
 import java.util.concurrent.ConcurrentHashMap;
 
