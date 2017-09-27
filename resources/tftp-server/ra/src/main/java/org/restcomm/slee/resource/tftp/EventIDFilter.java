@@ -85,6 +85,9 @@ public class EventIDFilter { 			//not used
 				synchronized (servicesReceivingEvent) {
 					servicesReceivingEvent.remove(receivableService.getService());
 				}
+				if(servicesReceivingEvent.isEmpty()) {
+				    eventID2serviceIDs.remove(receivableEvent.getEventType());
+				}
 			}
 		}		
 	}
