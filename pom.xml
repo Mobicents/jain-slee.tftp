@@ -22,7 +22,17 @@
 		<developerConnection>scm:git:git@github.com:RestComm/jain-slee.tftp.git</developerConnection>
 		<url>https://github.com/RestComm/jain-slee.tftp</url>
 	</scm>     
-			
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>license-maven-plugin</artifactId>
+				<version>1.13</version>
+			</plugin>
+		</plugins>
+	</build>
+		
 	<profiles>
 		<profile>
 			<id>maven-release</id>
